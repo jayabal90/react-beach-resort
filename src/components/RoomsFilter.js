@@ -72,7 +72,7 @@ export default function RoomsFilter({rooms}) {
 
             {/* room price  */}
             <div className="form-group">
-             <label htmlFor="price">room price ${price}</label>
+             <label htmlFor="price">room price &#8377;{price}</label>
              <input 
                 type="range"
                 name="price" 
